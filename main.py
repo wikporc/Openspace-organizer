@@ -6,8 +6,19 @@ also had to create __init__.py in the utils folder, this tells Python that the f
 """
 names_list=read_names() #You can use your own input path as an argument here- uses the default one in the main directory if none provided
 
-instance=Openspace(4,6)
+
+
+#some testing below 
+instance=Openspace(number_of_tables=5,table_capacity=6)
+
+
+
+
+
 instance.organize(names_list)
+instance.prevent_lonely_person()
 instance.display()
 lines=instance.store()
 write_allocation(output_path,lines) 
+
+

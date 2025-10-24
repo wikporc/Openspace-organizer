@@ -16,7 +16,7 @@ Took about 8-9 hours to make.
 
 ## Requirements
 - Python 3.8+
-- pandas - for reading the input csv file and 
+- pandas - for reading the input csv file  
 
 
 ## Usage
@@ -28,6 +28,7 @@ directory, provide it as an argument to the utils.file_utils.read_names().() fun
 #Changelog
 - 1.0 - first working version of the script. 
 - 1.1 - added __str__ methods for all 3 of the classes
+- 1.2 - added the possibility to add a new
 
 
 
@@ -35,7 +36,7 @@ directory, provide it as an argument to the utils.file_utils.read_names().() fun
 - Consider raising a ValueError if there are more names than available seats. 
 - the .left_capacity() method is currently unused
 - the .remove_occupant() method is currently unused
-- the .display() and .store() could be combined into one. 
+- 
 - Allow the possibility to define the room setup from a config.json file. Allow the possibility to change dynamically the setup and re-run the program.
 - Make the program more dynamic and interactive by adding the possibilty to add someone in the room (a new colleague arriving or someone being late) and the possibilty to add a table if the room is full.
 - Improve the algorithm to avoid having someone alone at a table

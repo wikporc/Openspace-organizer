@@ -58,6 +58,7 @@ class Table:
         for seat in self.seats: 
             if seat.free:
                 seat.set_occupant(name)
+                seat.free=False
                 return seat
             
         
