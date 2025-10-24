@@ -83,6 +83,7 @@ class Openspace:
             print  ("Please enter Y or N:")
 
 
+    ''' this monstrosity is still in progress, involved a lot of chatgpt and I'm not proud of it. To be changed later.
     def prevent_lonely_person(self):
         
         lonely_tables= [table for table in self.tables if (table.capacity-table.left_capacity())==1]
@@ -116,6 +117,7 @@ class Openspace:
                     occupied_count = table.capacity - table.left_capacity()
                     if occupied_count > 1:
                         break  # table no longer lonely
+                    '''
                                    
                                                
                     
